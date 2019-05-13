@@ -1,0 +1,50 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>The Mini Translator</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="translator.css"/>
+</head>
+
+<body>
+    <script src="index.js"></script>
+    <h1>Welcome to the Mini Translator</h1>
+
+    <h2>
+        Here you can translate some basic phrases from a few of the more commonly heard-of languages.  Simply type in what you want translated, select the language you want to translate it into, and then press the "Translate" button.  The result will appear below!
+    </h2>
+
+    <div id="middle">
+        <input id="englishPhrase">
+        <br>
+        <input id="spanny" type="radio" name="pickOne" value="spanish">Spanish<br>
+        <input id="frenchie" type="radio" name="pickOne" value="french">French<br>
+        <input id="italia" type="radio" name="pickOne" value="italian">Italian<br>
+
+        <input type="button" value="Translate" onclick="plzWork()">
+
+        <p>
+            Please use correct capitalization, <br>
+            otherwise The Mini Translator will not work. <br>
+            (I didn't want to code for every variation. =P)
+        </p>
+    </div>
+
+    <div>
+        <h3 id="result"></h3>
+    </div>
+
+    <p>
+        (Here are the options for what to type:) <br>
+        Hello <br>
+        How are you <br>
+        My name is <br>
+        Nice to meet you <br>
+        I need help
+    </p>
+</body>
+
+</html>
